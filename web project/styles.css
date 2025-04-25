@@ -1,0 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1740&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #f9f9f9;
+  }
+  
+  /* Main Sections */
+  .bucket-category {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  }
+  
+  .bucket-category h2 {
+    margin-bottom: 15px;
+    color: #ffe600;
+  }
+  
+  .bucket-category ul {
+    list-style: none;
+  }
+  
+  .bucket-category li {
+    padding: 12px;
+    margin-bottom: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid #00f7ff;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .bucket-category li:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .bucket-category li i {
+    margin-right: 10px;
+    color: #00ffe1;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.95em;
+    color: #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      padding: 15px;
+    }
+  
+    .bucket-category {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  }
+  
